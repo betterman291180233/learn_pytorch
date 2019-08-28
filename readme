@@ -1,0 +1,3 @@
+安装pytorch的cpu版本
+step1：需要在其官网上查看下载的连接https://pytorch.org/get-started/locally/
+step2：在本地利用Pip进行安装，或者下载源文件进行安装
