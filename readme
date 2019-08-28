@@ -1,3 +1,9 @@
 安装pytorch的cpu版本
 step1：需要在其官网上查看下载的连接https://pytorch.org/get-started/locally/
 step2：在本地利用Pip进行安装，或者下载源文件进行安装
+
+pytorch的概述：
+· Numpy风格的Tensor操作。pytorch中tensor提供的API参考了Numpy的设计，因此熟悉Numpy的用户基本上可以无缝理解，并创建和操作tensor，同时torch中的数组和Numpy数组对象可以无缝的对接。
+· 变量自动求导。在一序列计算过程形成的计算图中，参与的变量可以方便的计算自己对目标函数的梯度。这样就可以方便的实现神经网络的后向传播过程。
+· 神经网络层与损失函数优化等高层封装。网络层的封装存在于torch.nn模块，损失函数由torch.nn.functional模块提供，优化函数由torch.optim模块提供。
+
